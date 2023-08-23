@@ -14,16 +14,18 @@
         <?php
         $nama = "Fajar Yumna Adani";
         $umur = 21;
-        $pekerjaan = "Mahasiswa";
+        $jurusan = "Teknik Komputer";
+        $universitas = "Universitas Diponegoro";
         $alamat = "Tembalang, Semarang";
         $asal = "Blora, Jawa Tengah";
         ?>
-        <div class="card m-5" style="width: 18rem;">
+        <div class="card m-5" style="width: 22rem;">
             <div class="card-body">
                 <h3 class="card-title">Biodata Diri</h5>
                     <p class="card-title">Nama : <?php echo $nama; ?></p>
                     <p class="card-text">Umur : <?php echo $umur; ?> tahun</p>
-                    <p class="card-text">Pekerjaan : <?php echo $pekerjaan; ?></p>
+                    <p class="card-text">Jurusan : <?php echo $jurusan; ?></p>
+                    <p class="card-text">Universitas : <?php echo $universitas; ?></p>
                     <p class="card-text">Alamat : <?php echo $alamat; ?></p>
                     <p class="card-text">Asal : <?php echo $asal; ?></p>
             </div>
